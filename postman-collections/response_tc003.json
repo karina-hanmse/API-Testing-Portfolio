@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "title": "Post actualizado via API testing",
+  "body": "Contenido modificado para validar operación PUT",
+  "userId": 1
+}
