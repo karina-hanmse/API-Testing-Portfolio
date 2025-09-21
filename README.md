@@ -62,10 +62,10 @@ API-Testing-Portfolio/
 
 | Método | Casos | Propósito |
 |--------|-------|-----------|
-| GET | 3 | Consulta de recursos |
-| POST | 3 | Creación de recursos |
-| PUT | 1 | Actualización completa |
-| DELETE | 1 | Eliminación de recursos |
+| GET    | 3     | Consulta de recursos |
+| POST   | 3     | Creación de recursos |
+| PUT    | 1     | Actualización completa |
+| DELETE | 1     | Eliminación de recursos |
 
 ## Status Codes Validados
 
@@ -174,9 +174,9 @@ Este portfolio complementa las habilidades demostradas en testing de UI al cubri
 ## Contacto
 
 **Karina Hanmse**
-- LinkedIn: [Tu perfil LinkedIn]
-- GitHub: [Tu usuario GitHub]
-- Email: [Tu email]
+- LinkedIn: www.linkedin.com/in/karinahanmse
+- GitHub: [\karina-hanmse GitHub\](https://github.com/karina-hanmse/API-Testing-Portfolio)
+- Email:karinahanmse@gmail.com
 
 ---
 
