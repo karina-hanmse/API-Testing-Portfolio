@@ -1,0 +1,6 @@
+{
+  "title": "Post sin Content-Type header",
+  "body": "Contenido para probar validación de headers",
+  "userId": 1,
+  "id": 101
+}

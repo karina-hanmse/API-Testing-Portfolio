@@ -84,26 +84,28 @@ Verificar que el endpoint GET /posts maneja correctamente parámetros de query p
 
 ## 📊 Resultado de Ejecución
 - **Ejecutado por:** [Karina Hanmse]
-- **Fecha:** [21/09/2025]
+- **Fecha:** 22/09/2025
 - **Herramienta:** Postman v10.x
-- **Estado:** ⏳ Pendiente
-- **Response Time:** [X ms]
+- **Estado:** ✅ Pass
+- **Response Time:** 196 ms
 
 ## 📝 Observaciones
-[Completar después de la ejecución]
+- Todos los post tienen userId=1.
+- Estructura del array acorde a lo especificado.
+- Contiene multiples elementos pertenecientes al userId = 1.
 
 ## 🔍 Evidencia de Prueba
-- **Screenshot Request:** [postman_request_tc008.png]
-- **Screenshot Response:** [postman_response_tc008.png]
+- **Screenshot Request:** evidence/postman_request_tc008.png
+- **Screenshot Response:** evidence/postman_response_tc008.png
 - **JSON Response completo:** [response_tc008.json]
 
 ## 📈 Validaciones Realizadas
-- [ ] Status Code: 200
-- [ ] Response Time: [X ms] < 2000ms
-- [ ] Array of posts returned: [Yes/No]
-- [ ] All posts userId = 1: [Yes/No]
-- [ ] Multiple results: [Yes/No]
-- [ ] Query filtering working: [Yes/No]
+- ✅ Status Code: 200
+- ✅ Response Time: 196 ms < 2000ms
+- ✅ Array of posts returned: Sí
+- ✅ All posts userId = 1: Sí
+- ✅ Multiple results: Sí
+- ✅ Query filtering working: Sí
 
 ## 🔗 Trazabilidad y Referencias
 - **Requisito funcional:** REQ-GET-003 (Filtrado por parámetros de query)
@@ -118,7 +120,8 @@ Verificar que el endpoint GET /posts maneja correctamente parámetros de query p
 | Versión | Fecha | Cambio Realizado | Responsable |
 |---------|--------|------------------|-------------|
 | 1.0 | 21/09/2025 | Creación inicial del caso | Karina Hanmse |
+| 1.1 | 22/09/2025 | Ejecución  del caso | Karina Hanmse |
 
 ---
-**Última actualización:** 21/09/2025
+**Última actualización:** 22/09/2025
 **Revisado por:** [Karina Hanmse]

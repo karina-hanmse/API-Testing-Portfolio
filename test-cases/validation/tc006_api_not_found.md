@@ -67,25 +67,26 @@ Verificar que el endpoint GET /posts/999 maneja correctamente la solicitud de un
 
 ## 📊 Resultado de Ejecución
 - **Ejecutado por:** [Karina Hanmse]
-- **Fecha:** [21/09/2025]
+- **Fecha:** 21/09/2025
 - **Herramienta:** Postman v10.x
-- **Estado:** ⏳ Pendiente
-- **Response Time:** [X ms]
+- **Estado:** ✅ Pass
+- **Response Time:** 556 ms
 
 ## 📝 Observaciones
-[Completar después de la ejecución]
+- Status code correcto 404 NOT FOUND
+- Resultado esperado body vació {}
 
 ## 🔍 Evidencia de Prueba
-- **Screenshot Request:** [postman_request_tc006.png]
-- **Screenshot Response:** [postman_response_tc006.png]
-- **Error response completo:** [response_tc006.json]
+- **Screenshot Request:** evidence/postman_request_tc006.png
+- **Screenshot Response:** evidence/postman_response_tc006.png
+- **Error response completo:** postman-collections/response_tc006.json
 
 ## 📈 Validaciones Realizadas
-- [ ] Status Code: 404
-- [ ] Response Time: [X ms] < 2000ms
-- [ ] Error response appropriate: [Yes/No]
-- [ ] No data leaked: [Yes/No]
-- [ ] Headers consistent: [Yes/No]
+- ✅ Status Code: 404
+- ✅ Response Time: 556ms < 2000ms
+- ✅ Error response appropriate: SI
+- ✅ No data leaked:SI
+- ✅ Headers consistent: SI
 
 ## 🔗 Trazabilidad y Referencias
 - **Requisito funcional:** REQ-GET-002 (Manejo de recursos inexistentes)
@@ -100,7 +101,8 @@ Verificar que el endpoint GET /posts/999 maneja correctamente la solicitud de un
 | Versión | Fecha | Cambio Realizado | Responsable |
 |---------|--------|------------------|-------------|
 | 1.0 | 21/09/2025 | Creación inicial del caso | Karina Hanmse |
+| 1.1 | 21/09/2025 | Ejecución del caso | Karina Hanmse |
 
 ---
 **Última actualización:** 21/09/2025
-**Revisado por:** [Karina Hanmse]
+**Revisado por:** Karina Hanmse

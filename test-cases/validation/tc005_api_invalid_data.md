@@ -5,7 +5,7 @@
 - **Módulo:** Posts Management API
 - **Prioridad:** Alta
 - **Tipo:** API - Negativo
-- **Autor:** [Karina Hanmse]
+- **Autor:** Karina Hanmse
 - **Fecha:** 21/09/2025
 
 ## 🎯 Objetivo
@@ -28,8 +28,8 @@ Verificar que el endpoint POST /posts maneja correctamente datos inválidos o ma
 
 | Campo | Valor | Descripción |
 |-------|-------|-------------|
-| title | "" | Campo vacío (inválido) |
-| body | "" | Campo vacío (inválido) |
+| title | ""    | Campo vacío (inválido) |
+| body  | ""    | Campo vacío (inválido) |
 | userId | "invalid_user_id" | String en lugar de number |
 
 ## 🔄 Pasos de Ejecución
@@ -83,25 +83,26 @@ Verificar que el endpoint POST /posts maneja correctamente datos inválidos o ma
 
 ## 📊 Resultado de Ejecución
 - **Ejecutado por:** [Karina Hanmse]
-- **Fecha:** [21/09/2025]
+- **Fecha:** 21/09/2025
 - **Herramienta:** Postman v10.x
-- **Estado:** ⏳ Pendiente
+- **Estado:** ❌ Fail
 - **Response Time:** [X ms]
 
 ## 📝 Observaciones
-[Completar después de la ejecución]
+- El sistema acepta datos inválidos (Status 201)
+- Se crea recurso con datos inválidos
 
 ## 🔍 Evidencia de Prueba
-- **Screenshot Request:** [postman_request_tc005.png]
-- **Screenshot Response:** [postman_response_tc005.png]
-- **Error response completo:** [response_tc005.json]
+- **Screenshot Request:** evidence/postman_request_tc005.png
+- **Screenshot Response:** evidence/postman_response_tc005.png
+- **Error response completo:** postman-collections/response_tc005.json
 
 ## 📈 Validaciones Realizadas
-- [ ] Status Code: 4xx
-- [ ] Response Time: [X ms] < 2000ms
-- [ ] Error message present: [Yes/No]
-- [ ] Validation errors specific: [Yes/No]
-- [ ] No resource created: [Yes/No]
+- ❌ Status Code: 4xx
+- ✅ Response Time: 352ms < 2000ms
+- ❌ Error message present: NO
+- ❌ Validation errors specific: NO
+- ❌ No resource created: SI
 
 ## 🔗 Trazabilidad y Referencias
 - **Requisito funcional:** REQ-POST-004 (Validación de datos de entrada)
@@ -117,7 +118,8 @@ Verificar que el endpoint POST /posts maneja correctamente datos inválidos o ma
 | Versión | Fecha | Cambio Realizado | Responsable |
 |---------|--------|------------------|-------------|
 | 1.0 | 21/09/2025 | Creación inicial del caso | Karina Hanmse |
+| 1.1 | 21/09/2025 | Ejecución del caso | Karina Hanmse |
 
 ---
 **Última actualización:** 21/09/2025
-**Revisado por:** [Karina Hanmse]
+**Revisado por:** Karina Hanmse

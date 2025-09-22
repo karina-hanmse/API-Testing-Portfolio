@@ -90,27 +90,27 @@ Verificar que el endpoint GET /posts/1 retorna la estructura de datos correcta c
 
 ## 📊 Resultado de Ejecución
 - **Ejecutado por:** [Karina Hanmse]
-- **Fecha:** [21/09/2025]
+- **Fecha:** 22/09/2025
 - **Herramienta:** Postman v10.x
-- **Estado:** ⏳ Pendiente
-- **Response Time:** [X ms]
+- **Estado:** ✅ Pass
+- **Response Time:** 322 ms
 
 ## 📝 Observaciones
-[Completar después de la ejecución]
+- Todos los criterios de aceptación son correctos.
 
 ## 🔍 Evidencia de Prueba
-- **Screenshot Request:** [postman_request_tc009.png]
-- **Screenshot Response:** [postman_response_tc009.png]
-- **JSON Response completo:** [response_tc009.json]
+- **Screenshot Request:** evidence/postman_request_tc009.png
+- **Screenshot Response:** evidence/postman_response_tc009.png
+- **JSON Response completo:** postman-collections/response_tc009.json
 
 ## 📈 Validaciones Realizadas
-- [ ] Status Code: 200
-- [ ] Response Time: [X ms] < 2000ms
-- [ ] All required fields present: [Yes/No]
-- [ ] Data types correct: [Yes/No]
-- [ ] Field values valid: [Yes/No]
-- [ ] No extra fields: [Yes/No]
-- [ ] Headers correct: [Yes/No]
+- ✅ Status Code: 200
+- ✅ Response Time: 322 ms < 2000ms
+- ✅ All required fields present: Si
+- ✅ Data types correct: Si
+- ✅ Field values valid: Si
+- ✅ No extra fields: Si
+- ✅ Headers correct: Si
 
 ## 🔗 Trazabilidad y Referencias
 - **Requisito funcional:** REQ-GET-004 (Estructura consistente de response)
@@ -126,7 +126,8 @@ Verificar que el endpoint GET /posts/1 retorna la estructura de datos correcta c
 | Versión | Fecha | Cambio Realizado | Responsable |
 |---------|--------|------------------|-------------|
 | 1.0 | 21/09/2025 | Creación inicial del caso | Karina Hanmse |
+| 1.1 | 22/09/2025 | Ejecución del caso | Karina Hanmse |
 
 ---
-**Última actualización:** 21/09/2025
+**Última actualización:** 22/09/2025
 **Revisado por:** [Karina Hanmse]

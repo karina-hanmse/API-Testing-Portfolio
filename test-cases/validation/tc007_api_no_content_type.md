@@ -82,26 +82,27 @@ Verificar que el endpoint POST /posts maneja correctamente requests sin el heade
 
 ## 📊 Resultado de Ejecución
 - **Ejecutado por:** [Karina Hanmse]
-- **Fecha:** [21/09/2025]
+- **Fecha:** 22/09/2025
 - **Herramienta:** Postman v10.x
-- **Estado:** ⏳ Pendiente
-- **Response Time:** [X ms]
+- **Estado:** ❌ Fail
+- **Response Time:** 550 ms
 
 ## 📝 Observaciones
-[Completar después de la ejecución]
+- Sistema acepta request sin Content-Type, Status 201 Created.
+- Se crea recurso sin validar headers.
 
 ## 🔍 Evidencia de Prueba
-- **Screenshot Request Headers:** [postman_headers_tc007.png]
-- **Screenshot Request Body:** [postman_body_tc007.png]
-- **Screenshot Response:** [postman_response_tc007.png]
-- **Error response completo:** [response_tc007.json]
+- **Screenshot Request Headers:** "evidence\tc007_request_not_headers.png"
+- **Screenshot Request Body:** "evidence\tc007_request_body.png"
+- **Screenshot Response:** "evidence\tc007_response.png"
+- **Error response completo:** response_tc007.json
 
 ## 📈 Validaciones Realizadas
-- [ ] Status Code: 400/415
-- [ ] Response Time: [X ms] < 2000ms
-- [ ] Content-Type error mentioned: [Yes/No]
-- [ ] No resource created: [Yes/No]
-- [ ] Error message clear: [Yes/No]
+- ❌ Status Code: 400/415
+- ✅ Response Time: 550 ms < 2000ms
+- ❌ Content-Type error mentioned: No
+- ❌ No resource created: No
+- ❌ Error message clear: No
 
 ## 🔗 Trazabilidad y Referencias
 - **Requisito funcional:** REQ-POST-005 (Validación de headers requeridos)
@@ -117,7 +118,8 @@ Verificar que el endpoint POST /posts maneja correctamente requests sin el heade
 | Versión | Fecha | Cambio Realizado | Responsable |
 |---------|--------|------------------|-------------|
 | 1.0 | 21/09/2025 | Creación inicial del caso | Karina Hanmse |
+| 1.1 | 22/09/2025 | Ejecución del caso | Karina Hanmse |
 
 ---
-**Última actualización:** 21/09/2025
+**Última actualización:** 22/09/2025
 **Revisado por:** [Karina Hanmse]
